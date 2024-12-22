@@ -413,9 +413,12 @@ body.scroll-up header {
     margin: 0 auto;
 }
 
-.projects-section h2 {
+.projects-title {
     font-size: 2.5rem;
-    margin-bottom: 15px;
+    font-weight: bold;
+    color: rgb(15, 1, 1);
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .projects-section p {
@@ -567,6 +570,15 @@ body.scroll-up header {
     margin-bottom: 20px;
 }
 
+.experience-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    margin-bottom: 30px;
+}
+        
+
 .experience-section .experience-item .year {
     background-color: rgba(255, 255, 255, 0.8); /* Light, dark white background */
     border-radius: 50%;  /* Ensures the year is in a circle */
@@ -704,10 +716,14 @@ h2 {
 
 /*Events section Styles*/
 /* General styles for Events Section */
-.events-section h2 {
+.events-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(14, 13, 13);
     text-align: center;
-    margin-bottom: 30px; /* Optional: Add some space below the header */
+    margin-bottom: 30px;
 }
+
 
 /* Event Category Styling (Outside the Event Box) */
 .events-section .event-category {
@@ -766,13 +782,12 @@ h2 {
     background-color: #f9f9f9;
 }
 
-.warm-words-section h2 {
-    background-color: #88868600;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+.words-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(14, 13, 13);
     text-align: center;
-    box-shadow: 0 6px 12px rgba(255, 254, 254, 0.1);
+    margin-bottom: 30px;
 }
 
 /* Colleague Box Styles */
@@ -1179,7 +1194,7 @@ div a:hover {
 <!-- Projects Section -->
 <section id="projects" class="projects-section">
     <div class="container">
-        <h2>Projects</h2>
+        <div class="projects-title"> Projects</div>
         <p>Take a look at some of the projects I'm proud of:</p>
         
         <!-- Project 1: Mall Visitor Demographics Using AIML -->
@@ -1263,7 +1278,7 @@ div a:hover {
 <!-- Experience Section -->
 <section id="experience" class="experience-section">
     <div class="container">
-        <h2>Experience</h2>
+         <div class="experience-title"> Experience</div>
         <!-- Previous Section -->
         <div class="content-before-footer">
             <!-- Your content here -->
@@ -1426,7 +1441,7 @@ div a:hover {
 <section id="events" class="events-section">
     <div class="container">
         <!-- Centered Header -->
-        <h2 class="text-center">Events With Me</h2>
+        <div class="events-title"> Events</div>
         <div class="row">
             <!-- First Conference Event Box -->
             <div class="col-md-4">
@@ -1476,7 +1491,7 @@ div a:hover {
 <!-- Warm Words From My Colleagues Section -->
 <section id="warm-words" class="warm-words-section">
     <div class="container">
-        <h2 class="text-center">Warm Words From My Colleagues</h2>
+    <div class="words-title"> Warm Words From My Colleagues</div>
         <div class="row">
             <div class="col-md-12">
                 <!-- Colleague 1 -->
