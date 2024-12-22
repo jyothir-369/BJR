@@ -12,12 +12,19 @@
 
 
 /* General Body Styles */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+html, body {
+    height: 100%; /* Ensure proper viewport usage */
+    margin: 0; /* Remove default margin */
 }
+
+body {
+    padding-top: 120px; /* Adjust this if needed */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    transform: scale(0.67); /* Zoom out to 67% */
+    transform-origin: top center; /* Keeps content aligned to the top */
+    height: 150%; /* Ensures content fits within the viewport */
+}
+
 
 /* Header Section Styles */
 header {
@@ -274,8 +281,8 @@ body.scroll-up header {
             width: 100%; /* Ensure full width of the container */
             box-sizing: border-box; /* Prevent padding from affecting overall dimensions */
             text-align: center;
-            border-left: 420px solid white; /* Reduced white left border */
-            border-right: 420px solid white; /* Reduced white right border */
+            border-left: 20px solid white; /* Reduced white left border */
+            border-right: 20px solid white; /* Reduced white right border */
             border-radius: 20px; /* Smooth rounded corners */
         }
 
@@ -617,8 +624,8 @@ h2 {
     width: 100%;
     box-sizing: border-box;
     text-align: center;
-    border-left: 420px solid white; /* Reduced white left border */
-    border-right: 420px solid white; /* Reduced white right border */
+    border-left: 20px solid white; /* Reduced white left border */
+    border-right: 20px solid white; /* Reduced white right border */
 }
 
 .achievements-title {
